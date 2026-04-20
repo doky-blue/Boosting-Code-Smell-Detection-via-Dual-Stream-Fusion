@@ -1,0 +1,14 @@
+{
+    "<UNK>": 0,
+    "CtAssignmentImpl": 1,
+    "CtBlockImpl": 2,
+    "CtClassImpl": 3,
+    "CtCommentImpl": 4,
+    "CtConstructorCallImpl": 5,
+    "CtForEachImpl": 6,
+    "CtIfImpl": 7,
+    "CtInvocationImpl": 8,
+    "CtJavaDocImpl": 9,
+    "CtLocalVariableImpl": 10,
+    "CtNewClassImpl": 11
+}

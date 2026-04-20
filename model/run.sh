@@ -1,0 +1,16 @@
+python main.py \
+    --type "feature_envy" \
+    --output_dir "./output" \
+    --train_data_file "/home/doky/project/postgraduate/dataset/MLCQ/data/four_model/" \
+    --eval_data_file "/home/doky/project/postgraduate/dataset/MLCQ/data/four_model/" \
+    --test_data_file "/home/doky/project/postgraduate/dataset/MLCQ/data/four_model/" \
+    --model_name_or_path "/home/doky/Llama/codebert-base/" \
+    --do_train \
+    --do_test \
+    --train_batch_size 16 \
+    --eval_batch_size 8 \
+    --learning_rate 5e-5 \
+    --weight_decay 1e-3 \
+    --adam_epsilon 1e-8 \
+    --max_grad_norm 1.0 \
+    --num_train_epochs 100
